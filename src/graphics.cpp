@@ -42,10 +42,10 @@ void GraphicsSystem::CreateWindowAndContext(string title){
 	// Creating window
 	switch (Fullscreen){
 		case true:
-			Root = glfwCreateWindow(Width, Height, title, glfwGetPrimaryMonitor(), NULL);
+			Root = glfwCreateWindow(Width, Height, title.c_str(), glfwGetPrimaryMonitor(), NULL);
 			break;
 		case false:
-			Root = glfwCreateWindow(Width, Height, title, NULL, NULL);
+			Root = glfwCreateWindow(Width, Height, title.c_str(), NULL, NULL);
 			break;
 	}
 	if (!Root){

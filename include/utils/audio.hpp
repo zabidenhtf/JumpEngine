@@ -3,8 +3,8 @@
 /* Copyright (C) 2025-2026 Mykyta Polishyk */
 /* This project is licensed under the MIT License. */
 /* See the LICENSE file for details. */
-#include "system.hpp"
-#include "data.hpp"
+#include "utils/system.hpp"
+#include "utils/data.hpp"
 #include "includes.hpp"
 
 #include <AL/al.h>

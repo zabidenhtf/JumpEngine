@@ -4,9 +4,9 @@
 /* This project is licensed under the MIT License. */
 /* See the LICENSE file for details. */
 
-#include "input.hpp"
-#include "system.hpp"
-#include "graphics.hpp"
+#include "utils/input.hpp"
+#include "utils/system.hpp"
+#include "utils/graphics.hpp"
 
 //#include <iostream>
 

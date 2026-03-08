@@ -4,7 +4,7 @@
 /* This project is licensed under the MIT License. */
 /* See the LICENSE file for details. */
 
-#include "audio.hpp"
+#include "utils/audio.hpp"
 #include <climits>
 
 AudioSystem *Audio;

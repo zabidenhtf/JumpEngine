@@ -5,7 +5,7 @@
 /* See the LICENSE file for details. */
 
 #pragma once
-// Third party AUDIO libs
+// Third party GFX libs
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
@@ -15,7 +15,7 @@
 #include <glm/vec3.hpp>
 #include <glm/vec4.hpp>
 
-#include "system.hpp"
+#include "utils/system.hpp"
 #include "includes.hpp"
 
 using namespace glm;

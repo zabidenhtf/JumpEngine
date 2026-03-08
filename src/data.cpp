@@ -4,7 +4,7 @@
 /* This project is licensed under the MIT License. */
 /* See the LICENSE file for details. */
 
-#include "data.hpp"
+#include "utils/data.hpp"
 #include <png.h>
 
 DataSystem *Data; // Global object initialization

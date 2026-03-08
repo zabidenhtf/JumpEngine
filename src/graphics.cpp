@@ -4,9 +4,9 @@
 /* This project is licensed under the MIT License. */
 /* See the LICENSE file for details. */
 
-#include "graphics.hpp"
-#include "data.hpp"
-#include "config.hpp"
+#include "utils/graphics.hpp"
+#include "utils/data.hpp"
+#include "utils/config.hpp"
 
 GraphicsSystem *Graphics; // Global graphics object
 
